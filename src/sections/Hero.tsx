@@ -86,26 +86,7 @@ const Hero: React.FC = () => {
       </div>
 
       {/* Scroll Indicator */}
-      <div className="absolute bottom-10 left-0 right-0 flex justify-center">
-        <motion.div
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 1.2 }}
-          className="animate-bounce"
-        >
-          <Link
-            to="about"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}
-            className="flex flex-col items-center cursor-pointer text-dark-300 hover:text-primary-400 transition-colors"
-          >
-            <span className="text-xs mb-1">Scroll Down</span>
-            <ChevronDown className="h-5 w-5" />
-          </Link>
-        </motion.div>
-      </div>
+      
     </section>
   );
 };
