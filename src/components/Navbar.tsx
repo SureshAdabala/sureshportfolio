@@ -117,16 +117,7 @@ const Navbar: React.FC = () => {
                 </Link>
               </li>
             ))}
-            <li className="pt-4">
-              <a
-                href="/resume/sureshresume.pdf"   
-                download
-                className="btn btn-primary w-full justify-center"
-              >
-                <Download className="h-4 w-4" />
-                Download Resume
-              </a>
-            </li>
+            
           </ul>
         </nav>
       </div>
