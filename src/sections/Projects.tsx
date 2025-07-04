@@ -64,11 +64,11 @@ const Projects: React.FC = () => {
     },
     {
       icon: <Leaf className="h-6 w-6" />,
-      title: "Agricultural Modifications",
+      title: "WIFI Controlled car with NodeMCU ESP8266 Controlled by Blynk",
       role: "Team Lead",
-      period: "Sep 2023 – Nov 2023",
-      description: "Community service initiative promoting sustainable agriculture and educating local farmers on modern organic techniques.",
-      tech: "Workshops, community outreach, farming technology"
+      period: "Sep 2024 – Nov 2024",
+      description: "I Built a WIFI-controlled car using NodeMCU ESP8266 and the Blynk app for wireless smartphone control.Enabled real-time commands for smooth, responsive operation.",
+      tech: "NodeMCU (C/C++),Blynk IoT platform, DC motors,L298N motor driver"
     }
   ];
 

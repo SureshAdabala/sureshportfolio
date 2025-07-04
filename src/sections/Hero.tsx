@@ -49,7 +49,7 @@ const Hero: React.FC = () => {
 
               <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
               <a 
-              href="/resume/sureshresume.pdf"  
+              href="/resume/ResumeFinal.pdf"  
               download 
               className="btn btn-primary"
             >
