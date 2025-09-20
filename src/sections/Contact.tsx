@@ -178,7 +178,7 @@ const Contact: React.FC = () => {
                 className="text-dark-300 hover:text-primary-400 transition-colors"
                 aria-label="Send an email to sureshadabala739@gmail.com"
               >
-                sureshadabala739@gmail.com
+                sureshadabala0836@gmail.com
               </a>
             </div>
           </div>
