@@ -8,7 +8,8 @@ const About: React.FC = () => {
       <div className="max-w-4xl mx-auto">
         <h2 className="section-title fade-in">About Me</h2>
         <p className="section-subtitle fade-in">
-          An ambitious Electronics and Communication Engineering graduate with a passion for embedded systems, IoT, and web development.
+          An ambitious Electronics and Communication Engineering graduate with a passion for Full Stack Java Development, web development, 
+          and building scalable frontend and backend applications.
         </p>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mt-12">
