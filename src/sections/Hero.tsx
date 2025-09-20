@@ -39,12 +39,13 @@ const Hero: React.FC = () => {
               </h1>
 
               <h2 className="text-lg md:text-xl text-dark-300 mb-6">
-                Aspiring Software Engineer | ECE Graduate | Web & Software Enthusiast | Passionate About Building Scalable Applications
+                Aspiring Software Engineer | ECE Graduate | Web & Software Enthusiast | 
+                Passionate About Building Scalable Applications
               </h2>
 
               <p className="text-dark-400 mb-8 max-w-xl mx-auto lg:mx-0">
-                Passionate about combining electronics and software to build innovative solutions. 
-                I specialize in embedded systems, IoT, and web development.
+                Passionate about combining software and modern web technologies to build innovative solutions. 
+                I specialize in Full Stack Java Development, Spring Boot, and frontend & backend web applications.
               </p>
 
               <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
