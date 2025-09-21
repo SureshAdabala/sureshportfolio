@@ -16,16 +16,16 @@ const About: React.FC = () => {
           <div className="fade-in">
             <h3 className="text-2xl font-display font-bold text-white mb-4">Who I Am</h3>
             <p className="text-dark-300 mb-6 leading-relaxed">
-              As a recent graduate in Electronics and Communication Engineering, I combine technical knowledge with a passion for solving real-world problems. 
-              I'm dedicated to continuous learning and eager to apply my skills in embedded systems, IoT, and web development.
+              As a recent Electronics and Communication Engineering graduate, I combine my technical foundation with a passion for building real-world software solutions. 
+              I am currently learning Full Stack Java Development and am eager to apply my skills in creating robust web applications.
             </p>
             <p className="text-dark-300 mb-6 leading-relaxed">
-              My journey in technology has been driven by curiosity and the desire to create solutions that make a difference. 
-              I believe in the power of technology to transform lives and am committed to contributing to this field.
+              My journey in technology is driven by curiosity and the desire to develop solutions that make an impact. 
+              I believe in the power of software to transform businesses and lives, and I am committed to contributing to this field.
             </p>
             <p className="text-dark-300 mb-6 leading-relaxed">
-              With a strong foundation in both hardware and software, I am excited about the potential of bridging the gap between the two in the world of smart devices and automation. 
-              I am enthusiastic about collaborating with diverse teams to bring innovative ideas to life and push the boundaries of what's possible.
+              With a strong foundation in programming, web technologies, and problem-solving, I am excited about bridging the gap between frontend and backend development to build end-to-end applications. 
+              I am enthusiastic about collaborating with diverse teams to bring innovative ideas to life and push the boundaries of what's possible in the digital world.
             </p>
           </div>
 
