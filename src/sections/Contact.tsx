@@ -6,7 +6,8 @@ import {
   Phone, 
   Mail, 
   Linkedin, 
-  Download 
+  Download,
+  Github
 } from 'lucide-react';
 import emailjs from 'emailjs-com';  // Import EmailJS SDK
 
@@ -196,6 +197,23 @@ const Contact: React.FC = () => {
                   className="text-dark-300 hover:text-primary-400 transition-colors"
                 >
                   linkedin.com/in/suresh-adabala-8a3494259
+                </a>
+              </div>
+            </div>
+
+            <div className="card flex items-start gap-4">
+              <div className="text-primary-500 p-3 bg-primary-900/30 rounded-lg">
+                <Github className="h-5 w-5" />
+              </div>
+              <div>
+                <h4 className="text-lg font-medium text-white">GitHub</h4>
+                <a 
+                  href="https://github.com/SureshAdabala" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-dark-300 hover:text-primary-400 transition-colors"
+                >
+                  github.com/SureshAdabala
                 </a>
               </div>
             </div>
