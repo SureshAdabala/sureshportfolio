@@ -33,7 +33,7 @@ const Footer: React.FC = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-dark-400 hover:text-primary-400 transition-colors"
-                aria-label="GitHub"
+                aria-label="GithubIcon"
               >
                 <Linkedin className="h-5 w-5" />
               </a>
