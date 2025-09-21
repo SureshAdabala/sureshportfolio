@@ -44,23 +44,23 @@ const SkillCard: React.FC<SkillCardProps> = ({ icon, title, skills }) => {
 const TechnicalSkills = [
   {
     icon: <Cpu className="h-8 w-8" />,
-    title: "Hardware & Embedded",
-    skills: ["PCB Designing", "Embedded C", "Raspberry Pi", "IoT Basics"],
+    title: "Backend Skills",
+    skills: ["Core Java", "Embedded C"],
   },
   {
     icon: <Code className="h-8 w-8" />,
-    title: "Web Development",
+    title: "Frontend Skills",
     skills: ["HTML", "CSS", "JavaScript Basics"],
   },
   {
     icon: <Database className="h-8 w-8" />,
-    title: "Data & Analysis",
-    skills: ["SQL Basics", "Python (ML Fundamentals)"],
+    title: "Database Skills",
+    skills: ["SQL Basics", "MySQL", "SQLite"],
   },
   {
     icon: <FileText className="h-8 w-8" />,
-    title: "Productivity",
-    skills: ["MS Office", "Documentation"],
+    title: "Tools",
+    skills: ["Git", "GitHub", "VS Code", "Eclipse"],
   },
 ];
 
@@ -73,7 +73,7 @@ const SoftSkills = [
   {
     icon: <Brain className="h-8 w-8" />,
     title: "Cognitive",
-    skills: ["Critical Thinking", "Emotional Intelligence"],
+    skills: ["Critical Thinking", "Emotional Intelligence", "Problem Solving"],
   },
   {
     icon: <HeartHandshake className="h-8 w-8" />,
@@ -83,7 +83,7 @@ const SoftSkills = [
   {
     icon: <Flame className="h-8 w-8" />,
     title: "Work Ethic",
-    skills: ["Dedication", "Time Management"],
+    skills: ["Dedication", "Time Management", "Adaptability", "Multitasking"],
   },
 ];
 
