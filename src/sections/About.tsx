@@ -37,7 +37,7 @@ const About: React.FC = () => {
                   B.Tech – Electronics & Communication
                 </h4>
                 <p className="text-primary-400 text-sm mt-1">Eswar College of Engineering (2021–2025)</p>
-                <p className="mt-2 text-dark-300">CGPA: 7.67</p>
+                <p className="mt-2 text-dark-300">CGPA: 7.77</p>
               </div>
 
               <div className="timeline-item">
