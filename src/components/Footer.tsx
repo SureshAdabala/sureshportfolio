@@ -38,7 +38,7 @@ const Footer: React.FC = () => {
                 <GithubIcon className="h-5 w-5" />
               </a>
               <a
-                href="mailto:sureshadabala739@gmail.com"
+                href="mailto:sureshadabala0836@gmail.com?subject=Hello%20Suresh&body=I%20saw%20your%20portfolio"
                 className="text-dark-400 hover:text-primary-400 transition-colors"
                 aria-label="Email"
               >
@@ -100,7 +100,7 @@ const Footer: React.FC = () => {
 
               <li className="flex items-start space-x-3">
                 <Mail className="h-5 w-5 text-primary-500 mt-0.5" />
-                <span className="text-dark-400">sureshadabala739@gmail.com</span>
+                <span className="text-dark-400">sureshadabala0836@gmail.com</span>
               </li>
 
               <li className="flex items-start space-x-3">
