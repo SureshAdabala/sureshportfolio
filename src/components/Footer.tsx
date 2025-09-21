@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code, Linkedin, Mail, Phone, ExternalLink } from 'lucide-react';
+import { Code, Linkedin, Mail, Phone, ExternalLink, GithubIcon } from 'lucide-react';
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
               </span>
             </div>
             <p className="text-dark-400 mb-4 max-w-xs">
-              Aspiring Embedded & Web Developer | ECE Graduate | IoT Enthusiast
+             Aspiring Software Engineer | ECE Graduate | Web & Software Enthusiast | Passionate About Building Scalable Applications
             </p>
             <div className="flex space-x-4">
               <a
@@ -25,6 +25,15 @@ const Footer: React.FC = () => {
                 rel="noopener noreferrer"
                 className="text-dark-400 hover:text-primary-400 transition-colors"
                 aria-label="LinkedIn"
+              >
+                <Linkedin className="h-5 w-5" />
+              </a>
+              <a
+                href="https://github.com/SureshAdabala"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-dark-400 hover:text-primary-400 transition-colors"
+                aria-label="GitHub"
               >
                 <Linkedin className="h-5 w-5" />
               </a>
@@ -88,10 +97,12 @@ const Footer: React.FC = () => {
                 <Phone className="h-5 w-5 text-primary-500 mt-0.5" />
                 <span className="text-dark-400">+91 9347864386</span>
               </li>
+
               <li className="flex items-start space-x-3">
                 <Mail className="h-5 w-5 text-primary-500 mt-0.5" />
                 <span className="text-dark-400">sureshadabala739@gmail.com</span>
               </li>
+
               <li className="flex items-start space-x-3">
                 <Linkedin className="h-5 w-5 text-primary-500 mt-0.5" />
                 <a 
@@ -100,10 +111,24 @@ const Footer: React.FC = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Suresh Adabala
+                  LinkedIn
                   <ExternalLink className="h-3 w-3" />
                 </a>
               </li>
+
+              <li className="flex items-start space-x-3">
+                <GithubIcon className="h-5 w-5 text-primary-500 mt-0.5" />
+                <a 
+                  href="https://github.com/SureshAdabala" 
+                  className="text-dark-400 hover:text-primary-400 transition-colors flex items-center gap-1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Git Hub
+                  <ExternalLink className="h-3 w-3" />
+                </a>
+              </li>
+
             </ul>
           </div>
         </div>
