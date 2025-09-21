@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
                 href="#"
                 onClick={(e) => {
                   e.preventDefault(); // Prevent the page from navigating
-                  window.location.href = "mailto:sureshadabala739@gmail.com";
+                  window.location.href = "mailto:sureshadabala0836@gmail.com";
                 }}
                 className="text-dark-400 hover:text-primary-400 transition-colors"
                 aria-label="Email"
