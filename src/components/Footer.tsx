@@ -38,7 +38,11 @@ const Footer: React.FC = () => {
                 <GithubIcon className="h-5 w-5" />
               </a>
               <a
-                href="mailto:sureshadabala0836@gmail.com?subject=Hello%20Suresh&body=I%20saw%20your%20portfolio"
+                href="#"
+                onClick={(e) => {
+                  e.preventDefault(); // Prevent the page from navigating
+                  window.location.href = "mailto:sureshadabala739@gmail.com";
+                }}
                 className="text-dark-400 hover:text-primary-400 transition-colors"
                 aria-label="Email"
               >
