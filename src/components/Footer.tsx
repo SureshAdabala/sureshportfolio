@@ -35,7 +35,7 @@ const Footer: React.FC = () => {
                 className="text-dark-400 hover:text-primary-400 transition-colors"
                 aria-label="GithubIcon"
               >
-                <Linkedin className="h-5 w-5" />
+                <GithubIcon className="h-5 w-5" />
               </a>
               <a
                 href="mailto:sureshadabala739@gmail.com"
