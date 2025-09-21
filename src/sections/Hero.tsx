@@ -50,13 +50,13 @@ const Hero: React.FC = () => {
 
               <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
               <a 
-              href="public/resume/Resume.pdf"
-              download 
-              className="btn btn-primary"
-            >
-              <Download className="h-4 w-4" />
-              Download Resume
-            </a>
+                href="/resume/Resume.pdf"  // Note: no 'public/' here
+                download 
+                className="btn btn-primary"
+              >
+                <Download className="h-4 w-4" />
+                Download Resume
+              </a>
                 <Link
                   to="contact"
                   spy={true}
