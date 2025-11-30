@@ -55,21 +55,28 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 const Projects: React.FC = () => {
   const projects = [
     {
+       icon: <Leaf className="h-6 w-6" />,
+        title: (
+        <a 
+          href="https://the-kabaddi-universe-project.vercel.app/" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="hover:underline text-blue-600"
+        >
+          The Kabaddi Arena - Responsive PKL Website
+        </a>
+      ),
+      description: "Developed a responsive website using HTML and CSS to showcase PKL seasons, records, and venues in a clean and user-friendly design, ensuring smooth browsing on both mobile and desktop devices.",
+      tech: "HTML, CSS, Bootstrap"
+    },
+    {
       icon: <Lightbulb className="h-6 w-6" />,
       title: "Automatic Room Light/Fan Controller with Visitor Counter",
       role: "Team Lead",
-      period: "Jan 2025 – Mar 2025",
       description: "Smart automation project using sensors and microcontroller for room occupancy tracking and energy-efficient control of lights/fans.",
       tech: "IR sensors, Microcontroller, Relay, LCD, Embedded C"
-    },
-    {
-      icon: <Leaf className="h-6 w-6" />,
-      title: "WIFI Controlled car with NodeMCU ESP8266 Controlled by Blynk",
-      role: "Team Lead",
-      period: "Sep 2024 – Nov 2024",
-      description: "I Built a WIFI-controlled car using NodeMCU ESP8266 and the Blynk app for wireless smartphone control.Enabled real-time commands for smooth, responsive operation.",
-      tech: "NodeMCU (C/C++),Blynk IoT platform, DC motors,L298N motor driver"
     }
+    
   ];
 
   return (
