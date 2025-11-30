@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
               </span>
             </div>
             <p className="text-dark-400 mb-4 max-w-xs">
-             Aspiring Software Engineer | ECE Graduate | Web & Software Enthusiast | Passionate About Building Scalable Applications
+              Aspiring Software Engineer | ECE Graduate | Web & Software Enthusiast | Passionate About Building Scalable Applications
             </p>
             <div className="flex space-x-4">
               <a
@@ -109,8 +109,8 @@ const Footer: React.FC = () => {
 
               <li className="flex items-start space-x-3">
                 <Linkedin className="h-5 w-5 text-primary-500 mt-0.5" />
-                <a 
-                  href="https://www.linkedin.com/in/suresh-adabala-8a3494259" 
+                <a
+                  href="https://www.linkedin.com/in/suresh-adabala-8a3494259"
                   className="text-dark-400 hover:text-primary-400 transition-colors flex items-center gap-1"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -122,8 +122,8 @@ const Footer: React.FC = () => {
 
               <li className="flex items-start space-x-3">
                 <GithubIcon className="h-5 w-5 text-primary-500 mt-0.5" />
-                <a 
-                  href="https://github.com/SureshAdabala" 
+                <a
+                  href="https://github.com/SureshAdabala"
                   className="text-dark-400 hover:text-primary-400 transition-colors flex items-center gap-1"
                   target="_blank"
                   rel="noopener noreferrer"

@@ -36,14 +36,13 @@ const Navbar: React.FC = () => {
 
   return (
     <header
-      className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        scrolled
-          ? 'bg-background-dark/90 backdrop-blur-md shadow-lg py-3'
-          : 'bg-transparent py-5'
-      }`}
+      className={`fixed top-0 w-full z-50 transition-all duration-300 ${scrolled
+        ? 'bg-background-dark/90 backdrop-blur-md shadow-lg py-3'
+        : 'bg-transparent py-5'
+        }`}
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
@@ -59,7 +58,7 @@ const Navbar: React.FC = () => {
         <nav className="hidden md:flex items-center space-x-8">
           <ul className="flex space-x-8">
             {navLinks.map((link) => (
-              <motion.li 
+              <motion.li
                 key={link.name}
                 initial={{ opacity: 0, y: -10 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -70,9 +69,9 @@ const Navbar: React.FC = () => {
                   spy={true}
                   smooth={true}
                   offset={-70}
-                  duration={500}
+                  duration={200}
                   activeClass="text-primary-400"
-                  className="text-sm font-medium text-dark-300 hover:text-white transition-colors duration-300 cursor-pointer"
+                  className="text-lg font-medium text-dark-300 hover:text-white transition-colors duration-300 cursor-pointer outline-none focus:outline-none"
                 >
                   {link.name}
                 </Link>
@@ -95,9 +94,8 @@ const Navbar: React.FC = () => {
 
       {/* Mobile Navigation Menu */}
       <div
-        className={`md:hidden absolute w-full bg-dark-900/95 backdrop-blur-lg transition-all duration-300 ease-in-out ${
-          isOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0 pointer-events-none'
-        }`}
+        className={`md:hidden absolute w-full bg-dark-900/95 backdrop-blur-lg transition-all duration-300 ease-in-out ${isOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0 pointer-events-none'
+          }`}
       >
         <nav className="container mx-auto px-4 py-5">
           <ul className="flex flex-col space-y-4">
@@ -108,16 +106,16 @@ const Navbar: React.FC = () => {
                   spy={true}
                   smooth={true}
                   offset={-70}
-                  duration={500}
+                  duration={200}
                   activeClass="text-primary-400"
-                  className="text-base font-medium text-dark-300 hover:text-white transition-colors duration-300 block py-2"
+                  className="text-xl font-medium text-dark-300 hover:text-white transition-colors duration-300 block py-2 outline-none focus:outline-none"
                   onClick={() => setIsOpen(false)}
                 >
                   {link.name}
                 </Link>
               </li>
             ))}
-            
+
           </ul>
         </nav>
       </div>
